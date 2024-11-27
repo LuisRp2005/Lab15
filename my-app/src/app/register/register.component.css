@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(to bottom right, #ff7eb3, #ff758c);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.register-container {
+  max-width: 400px;
+  margin: 8% auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.register-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-control {
+  height: 50px;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f3f5;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #495057;
+}
+
+.form-control::placeholder {
+  color: #adb5bd;
+}
+
+.form-control:focus {
+  outline: none;
+  border: 2px solid #e83e8c;
+  box-shadow: 0 0 10px rgba(232, 62, 140, 0.5);
+}
+
+.btn-custom {
+  background: linear-gradient(90deg, #e83e8c, #ff6b6b);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(90deg, #ff6b6b, #e83e8c);
+  transform: scale(1.05);
+}
+
+.btn-block {
+  width: 100%;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .register-container {
+    padding: 30px;
+  }
+}
